@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55256A281E8256F2008AD8B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55256A271E8256F2008AD8B6 /* main.m */; };
+		55256A2B1E8256F2008AD8B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55256A2A1E8256F2008AD8B6 /* AppDelegate.m */; };
+		55256A2E1E8256F2008AD8B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55256A2D1E8256F2008AD8B6 /* ViewController.m */; };
+		55256A311E8256F2008AD8B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55256A2F1E8256F2008AD8B6 /* Main.storyboard */; };
+		55256A331E8256F3008AD8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55256A321E8256F3008AD8B6 /* Assets.xcassets */; };
+		55256A361E8256F3008AD8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55256A341E8256F3008AD8B6 /* LaunchScreen.storyboard */; };
+		55256A411E8256F3008AD8B6 /* CYXTouchLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55256A401E8256F3008AD8B6 /* CYXTouchLabelTests.m */; };
+		55256A4C1E8256F3008AD8B6 /* CYXTouchLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55256A4B1E8256F3008AD8B6 /* CYXTouchLabelUITests.m */; };
+		55256A5C1E825735008AD8B6 /* CYXTouchLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55256A5B1E825735008AD8B6 /* CYXTouchLabel.m */; };
+		55256A5F1E82575E008AD8B6 /* UILabel+AttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 55256A5E1E82575E008AD8B6 /* UILabel+AttributeTextTapAction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55256A3D1E8256F3008AD8B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55256A1B1E8256F1008AD8B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55256A221E8256F1008AD8B6;
+			remoteInfo = CYXTouchLabel;
+		};
+		55256A481E8256F3008AD8B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55256A1B1E8256F1008AD8B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55256A221E8256F1008AD8B6;
+			remoteInfo = CYXTouchLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55256A231E8256F1008AD8B6 /* CYXTouchLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYXTouchLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55256A271E8256F2008AD8B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55256A291E8256F2008AD8B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55256A2A1E8256F2008AD8B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55256A2C1E8256F2008AD8B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55256A2D1E8256F2008AD8B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55256A301E8256F2008AD8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55256A321E8256F3008AD8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55256A351E8256F3008AD8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55256A371E8256F3008AD8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55256A3C1E8256F3008AD8B6 /* CYXTouchLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYXTouchLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55256A401E8256F3008AD8B6 /* CYXTouchLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXTouchLabelTests.m; sourceTree = "<group>"; };
+		55256A421E8256F3008AD8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55256A471E8256F3008AD8B6 /* CYXTouchLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYXTouchLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55256A4B1E8256F3008AD8B6 /* CYXTouchLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXTouchLabelUITests.m; sourceTree = "<group>"; };
+		55256A4D1E8256F3008AD8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55256A5A1E825735008AD8B6 /* CYXTouchLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXTouchLabel.h; sourceTree = "<group>"; };
+		55256A5B1E825735008AD8B6 /* CYXTouchLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXTouchLabel.m; sourceTree = "<group>"; };
+		55256A5D1E82575D008AD8B6 /* UILabel+AttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AttributeTextTapAction.h"; sourceTree = "<group>"; };
+		55256A5E1E82575E008AD8B6 /* UILabel+AttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AttributeTextTapAction.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55256A201E8256F1008AD8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55256A391E8256F3008AD8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55256A441E8256F3008AD8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55256A1A1E8256F1008AD8B6 = {
+			isa = PBXGroup;
+			children = (
+				55256A251E8256F1008AD8B6 /* CYXTouchLabel */,
+				55256A3F1E8256F3008AD8B6 /* CYXTouchLabelTests */,
+				55256A4A1E8256F3008AD8B6 /* CYXTouchLabelUITests */,
+				55256A241E8256F1008AD8B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55256A241E8256F1008AD8B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55256A231E8256F1008AD8B6 /* CYXTouchLabel.app */,
+				55256A3C1E8256F3008AD8B6 /* CYXTouchLabelTests.xctest */,
+				55256A471E8256F3008AD8B6 /* CYXTouchLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55256A251E8256F1008AD8B6 /* CYXTouchLabel */ = {
+			isa = PBXGroup;
+			children = (
+				55256A591E82572B008AD8B6 /* CYXTouchLabel */,
+				55256A291E8256F2008AD8B6 /* AppDelegate.h */,
+				55256A2A1E8256F2008AD8B6 /* AppDelegate.m */,
+				55256A2C1E8256F2008AD8B6 /* ViewController.h */,
+				55256A2D1E8256F2008AD8B6 /* ViewController.m */,
+				55256A2F1E8256F2008AD8B6 /* Main.storyboard */,
+				55256A321E8256F3008AD8B6 /* Assets.xcassets */,
+				55256A341E8256F3008AD8B6 /* LaunchScreen.storyboard */,
+				55256A371E8256F3008AD8B6 /* Info.plist */,
+				55256A261E8256F1008AD8B6 /* Supporting Files */,
+			);
+			path = CYXTouchLabel;
+			sourceTree = "<group>";
+		};
+		55256A261E8256F1008AD8B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55256A271E8256F2008AD8B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55256A3F1E8256F3008AD8B6 /* CYXTouchLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				55256A401E8256F3008AD8B6 /* CYXTouchLabelTests.m */,
+				55256A421E8256F3008AD8B6 /* Info.plist */,
+			);
+			path = CYXTouchLabelTests;
+			sourceTree = "<group>";
+		};
+		55256A4A1E8256F3008AD8B6 /* CYXTouchLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55256A4B1E8256F3008AD8B6 /* CYXTouchLabelUITests.m */,
+				55256A4D1E8256F3008AD8B6 /* Info.plist */,
+			);
+			path = CYXTouchLabelUITests;
+			sourceTree = "<group>";
+		};
+		55256A591E82572B008AD8B6 /* CYXTouchLabel */ = {
+			isa = PBXGroup;
+			children = (
+				55256A5A1E825735008AD8B6 /* CYXTouchLabel.h */,
+				55256A5B1E825735008AD8B6 /* CYXTouchLabel.m */,
+				55256A5D1E82575D008AD8B6 /* UILabel+AttributeTextTapAction.h */,
+				55256A5E1E82575E008AD8B6 /* UILabel+AttributeTextTapAction.m */,
+			);
+			path = CYXTouchLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55256A221E8256F1008AD8B6 /* CYXTouchLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55256A501E8256F3008AD8B6 /* Build configuration list for PBXNativeTarget "CYXTouchLabel" */;
+			buildPhases = (
+				55256A1F1E8256F1008AD8B6 /* Sources */,
+				55256A201E8256F1008AD8B6 /* Frameworks */,
+				55256A211E8256F1008AD8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYXTouchLabel;
+			productName = CYXTouchLabel;
+			productReference = 55256A231E8256F1008AD8B6 /* CYXTouchLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55256A3B1E8256F3008AD8B6 /* CYXTouchLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55256A531E8256F3008AD8B6 /* Build configuration list for PBXNativeTarget "CYXTouchLabelTests" */;
+			buildPhases = (
+				55256A381E8256F3008AD8B6 /* Sources */,
+				55256A391E8256F3008AD8B6 /* Frameworks */,
+				55256A3A1E8256F3008AD8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55256A3E1E8256F3008AD8B6 /* PBXTargetDependency */,
+			);
+			name = CYXTouchLabelTests;
+			productName = CYXTouchLabelTests;
+			productReference = 55256A3C1E8256F3008AD8B6 /* CYXTouchLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55256A461E8256F3008AD8B6 /* CYXTouchLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55256A561E8256F3008AD8B6 /* Build configuration list for PBXNativeTarget "CYXTouchLabelUITests" */;
+			buildPhases = (
+				55256A431E8256F3008AD8B6 /* Sources */,
+				55256A441E8256F3008AD8B6 /* Frameworks */,
+				55256A451E8256F3008AD8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55256A491E8256F3008AD8B6 /* PBXTargetDependency */,
+			);
+			name = CYXTouchLabelUITests;
+			productName = CYXTouchLabelUITests;
+			productReference = 55256A471E8256F3008AD8B6 /* CYXTouchLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55256A1B1E8256F1008AD8B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "超级腕电商";
+				TargetAttributes = {
+					55256A221E8256F1008AD8B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QS43CC5A87;
+						ProvisioningStyle = Automatic;
+					};
+					55256A3B1E8256F3008AD8B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QS43CC5A87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55256A221E8256F1008AD8B6;
+					};
+					55256A461E8256F3008AD8B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QS43CC5A87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55256A221E8256F1008AD8B6;
+					};
+				};
+			};
+			buildConfigurationList = 55256A1E1E8256F1008AD8B6 /* Build configuration list for PBXProject "CYXTouchLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55256A1A1E8256F1008AD8B6;
+			productRefGroup = 55256A241E8256F1008AD8B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55256A221E8256F1008AD8B6 /* CYXTouchLabel */,
+				55256A3B1E8256F3008AD8B6 /* CYXTouchLabelTests */,
+				55256A461E8256F3008AD8B6 /* CYXTouchLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55256A211E8256F1008AD8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55256A361E8256F3008AD8B6 /* LaunchScreen.storyboard in Resources */,
+				55256A331E8256F3008AD8B6 /* Assets.xcassets in Resources */,
+				55256A311E8256F2008AD8B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55256A3A1E8256F3008AD8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55256A451E8256F3008AD8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55256A1F1E8256F1008AD8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55256A2E1E8256F2008AD8B6 /* ViewController.m in Sources */,
+				55256A5C1E825735008AD8B6 /* CYXTouchLabel.m in Sources */,
+				55256A2B1E8256F2008AD8B6 /* AppDelegate.m in Sources */,
+				55256A5F1E82575E008AD8B6 /* UILabel+AttributeTextTapAction.m in Sources */,
+				55256A281E8256F2008AD8B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55256A381E8256F3008AD8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55256A411E8256F3008AD8B6 /* CYXTouchLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55256A431E8256F3008AD8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55256A4C1E8256F3008AD8B6 /* CYXTouchLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55256A3E1E8256F3008AD8B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55256A221E8256F1008AD8B6 /* CYXTouchLabel */;
+			targetProxy = 55256A3D1E8256F3008AD8B6 /* PBXContainerItemProxy */;
+		};
+		55256A491E8256F3008AD8B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55256A221E8256F1008AD8B6 /* CYXTouchLabel */;
+			targetProxy = 55256A481E8256F3008AD8B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55256A2F1E8256F2008AD8B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55256A301E8256F2008AD8B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55256A341E8256F3008AD8B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55256A351E8256F3008AD8B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55256A4E1E8256F3008AD8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55256A4F1E8256F3008AD8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55256A511E8256F3008AD8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QS43CC5A87;
+				INFOPLIST_FILE = CYXTouchLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.CYXTouchLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55256A521E8256F3008AD8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QS43CC5A87;
+				INFOPLIST_FILE = CYXTouchLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.CYXTouchLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55256A541E8256F3008AD8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QS43CC5A87;
+				INFOPLIST_FILE = CYXTouchLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.CYXTouchLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYXTouchLabel.app/CYXTouchLabel";
+			};
+			name = Debug;
+		};
+		55256A551E8256F3008AD8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QS43CC5A87;
+				INFOPLIST_FILE = CYXTouchLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.CYXTouchLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYXTouchLabel.app/CYXTouchLabel";
+			};
+			name = Release;
+		};
+		55256A571E8256F3008AD8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QS43CC5A87;
+				INFOPLIST_FILE = CYXTouchLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.CYXTouchLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYXTouchLabel;
+			};
+			name = Debug;
+		};
+		55256A581E8256F3008AD8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QS43CC5A87;
+				INFOPLIST_FILE = CYXTouchLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = model.CYXTouchLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYXTouchLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55256A1E1E8256F1008AD8B6 /* Build configuration list for PBXProject "CYXTouchLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55256A4E1E8256F3008AD8B6 /* Debug */,
+				55256A4F1E8256F3008AD8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55256A501E8256F3008AD8B6 /* Build configuration list for PBXNativeTarget "CYXTouchLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55256A511E8256F3008AD8B6 /* Debug */,
+				55256A521E8256F3008AD8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55256A531E8256F3008AD8B6 /* Build configuration list for PBXNativeTarget "CYXTouchLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55256A541E8256F3008AD8B6 /* Debug */,
+				55256A551E8256F3008AD8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55256A561E8256F3008AD8B6 /* Build configuration list for PBXNativeTarget "CYXTouchLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55256A571E8256F3008AD8B6 /* Debug */,
+				55256A581E8256F3008AD8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55256A1B1E8256F1008AD8B6 /* Project object */;
+}
